@@ -11,15 +11,14 @@ SURF;
 ORB;
 MSER;
 BRISK;
-FAST;
 %% Gop tat ca cac diem chung tim duoc
 inlierPoints1 = [KAZEinlierPoints1.Location; SURFinlierPoints1.Location;...
     ORBinlierPoints1.Location; MSERinlierPoints1.Location; ...
-    BRISKinlierPoints1.Location; FASTinlierPoints1.Location];
+    BRISKinlierPoints1.Location];
 
 inlierPoints2 = [KAZEinlierPoints2.Location; SURFinlierPoints2.Location;...
     ORBinlierPoints2.Location; MSERinlierPoints2.Location; ...
-    BRISKinlierPoints2.Location; FASTinlierPoints2.Location];
+    BRISKinlierPoints2.Location];
 
 figure;
 showMatchedFeatures(I1, I2, inlierPoints1, inlierPoints2);
