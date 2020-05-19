@@ -38,4 +38,4 @@ figure;
 imshow(disparityMap, [0, 64]);
 title('Disparity Map');
 colormap jet
-colorbar
+colorbar 
