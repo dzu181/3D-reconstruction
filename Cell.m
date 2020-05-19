@@ -5,7 +5,7 @@ I2 = imread('22.jpg');
 I1gray = rgb2gray(I1);
 I2gray = rgb2gray(I2);
 
-%% Cho ra Diem chung theo so luong it dan
+%% Cho ra Diem chung dua theo tat ca cac thuat toan co the
 KAZE;
 SURF;
 ORB;
